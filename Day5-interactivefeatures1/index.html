@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Features Part-1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal-click">
+            <button class="modal-click-btn">Click on modal</button>
+        </div>
+        <div class="modal-bg">
+            <div class="modal-content">
+                <h2>Warning!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sit commodi excepturi voluptatem
+                    ratione, vel cupiditate, voluptatibus nobis ducimus reiciendis
+                    odit eos laborum nam quam rerum necessitatibus similique porro?</p>
+                <div class="modal-btn">
+                    <button class="close">Close</button>
+                    <button class="ok">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs">
+        <h1>Content Tabs</h1>
+        <div class="tabs-container">
+            <div class="btn-wrapper">
+                <button data-id="home" class="tab-btn active">Home</button>
+                <button data-id="service" class="tab-btn">Service</button>
+                <button data-id="products" class="tab-btn">Products</button>
+                <button data-id="contact" class="tab-btn">Contact</button>
+                <button data-id="about" class="tab-btn">About Us</button>
+            </div>
+
+            <div class="content-wrapper">
+                <div id="home" class="content active">Welocme to the Home Page.</div>
+                <div id="service" class="content">Welcome to the Services Page.</div>
+                <div id="products" class="content">Welcomes to the Products Page.</div>
+                <div id="contact" class="content">Welcomes to the Contact Page.</div>
+                <div id="about" class="content">Welcomes to the About Page.</div>
+            </div>
+        </div>
+
+        <div class="footer">This is footer</div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

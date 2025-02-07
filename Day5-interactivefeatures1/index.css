@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* adding css to modal part */
+.modal-click{
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #eebcc6;
+}
+
+.modal-click button{
+    cursor: pointer;
+    background-color: #f52f57;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.modal-bg {
+    position: fixed;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.modal-content {
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.modal-content h2{
+    color: red;
+}
+
+.modal-content p{
+    text-align: center;
+}
+
+.modal-btn button {
+    background-color: #f52f57;
+    border: none;
+    border-radius: 5px;
+    gap: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.close {
+    padding: 12px 60px;
+}
+
+.ok {
+    padding: 12px 70px;
+    margin-left: 10px;
+}
+
+
+/* adding css to tabs part */
+.tabs{
+    width: 100%;
+    height: 1005;
+}
+
+.tabs h1{
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #a49094;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 10px;
+    background-color: #d1d1d1;
+    padding: 10px 0px;
+}
+
+.tab-btn{
+    background-color: #686162;
+    border: none;
+    border-radius: 5px;
+    gap: 20px;
+    color: #fff;
+    padding: 12px 60px;
+    cursor: pointer;
+}
+
+.btn-wrapper button.active{
+background-color: #111;
+}
+
+.content-wrapper{
+   height: 450px;
+   text-align: center;
+    font-size: large;
+}
+
+.content{
+    display: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.content.active{
+    display: block;
+}
+
+.footer{
+    background-color: #a49094;
+    text-align: Center;
+    padding: 20px;
+}
