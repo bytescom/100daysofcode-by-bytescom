@@ -38,8 +38,18 @@ Here’s a concise plan to help achieve this:
 | 8    | Random Color Generator         |
 | 9    | Random Image Generator         |
 | 10   | Calculator                     |
-| 11   | Filter Cards                   |
-| 12   | Pagination                     |
+<!-- | 11   | QR Code Generator              | -->
+<!-- | 12   | Pagination                     | -->
+<!-- | 13   | Filter Cards                   | -->
+<!-- | 14   | Api Intergeration              | -->
+<!-- | 15   | Interface Components           | -->
+<!-- | 16   | Basic Full-flegde App          | -->
+<!-- | 17   | Advanced Js                    | -->
+<!-- | 18   | Mini Games                     | -->
+<!-- | 19   | Melody Part-1                  | -->
+<!-- | 20   | Melody Part-2                  | -->
+
+
 
 ---
 

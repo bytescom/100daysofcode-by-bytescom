@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">QrcodeG</div>
+        <div class="nav-links">
+            <li><a>Home</a></li>
+            <li><a>Generate QR</a></li>
+            <li><a>Contact</a></li>
+            <li><a>About</a></li>
+        </div>
+    </nav>
+    <section>
+        <div class="qr-container">
+            <div class="qr-input">
+                <h1>QR Code Generator</h1>
+                <p class="h1-msg">Create a free QR Code - dynamic, well-designed, and trackable - forever free, always reliable.</p>
+                <input type="text" placeholder="Type text or URL link" class="input">
+                <span class="error-msg"></span>
+                <button class="qr-generate-btn">Generate QR Code</button>
+            </div>
+            <div class="save-qr">
+                <div class="qr-box"></div>
+                <button class="download-btn">Download QR Code</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+        integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
