@@ -38,9 +38,9 @@ Here’s a concise plan to help achieve this:
 | 8    | Random Color Generator         |
 | 9    | Random Image Generator         |
 | 10   | Calculator                     |
-<!-- | 11   | QR Code Generator              | -->
-<!-- | 12   | Pagination                     | -->
-<!-- | 13   | Filter Cards                   | -->
+| 11   | QR Code Generator              |
+| 12   | Cards Filtering                |
+<!-- | 13   | Pagination                     | -->
 <!-- | 14   | Api Intergeration              | -->
 <!-- | 15   | Interface Components           | -->
 <!-- | 16   | Basic Full-flegde App          | -->
@@ -55,10 +55,9 @@ Here’s a concise plan to help achieve this:
 
 ## **Future Phases**  
 - **Phase 2:** React and Frontend Frameworks (Days 21–40)  
-- **Phase 3:** Backend with Node.js, Express, and MongoDB (Days 41–60)  
-- **Phase 4:** Full-Stack Applications (Days 61–80)  
-- **Phase 5:** AI/ML and Real-Life Problem Solving (Days 81–90)  
-- **Phase 6:** React Native and Mobile App Development (Days 91–100)  
+- **Phase 3:** Backend and Full-Stack Basics (Days 41–70) 
+- **Phase 4:** Advanced Projects with AI/ML Integration (Days 71–85)
+- **Phase 5:** Applying Skills to Real-World Challenges and Portfolio Development (Days 86–100)
 
 ---
 
