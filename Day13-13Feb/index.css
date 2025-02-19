@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+body {
+    background-color: #ae6667;
+    font: #f8f7e5;
+}
+
+.container {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container span{
+    font-size: 40px;
+    padding: 10px 30px;
+    background-color: #f8f7e5;
+    color: #ae6667;
+    border-radius: 8px;
+}
+
+.pagination-btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pagination-btn button{
+    
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(21, 21, 21) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+    
+}
+
+.pagination-btn button:hover{
+    box-shadow: rgb(3, 3, 3) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.01);
+}
+
+
+.pagination-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* Card styling */
+.pagination-list li {
+    height: 400px;
+    width: 272px;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    background-color: #f8f7e5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for cards */
+.pagination-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Hide all list items by default */
+.hide-list-item {
+    display: none;
+}
+
+/* Disabled button styles */
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
