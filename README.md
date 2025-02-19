@@ -26,26 +26,26 @@ Whether I am a beginner or an experienced developer, this challenge is designed 
 
 Here’s a concise plan to help achieve this:  
 
-| Day  | Project                        |
-|------|--------------------------------|
-| 1    | Accordion                      |
-| 2    | API Call                       |
-| 3    | Light/Dark Mode Component      |
-| 4    | Sticky Navbar                  |
-| 5    | Modals and Tabs                |
-| 6    | Scroll to Top and Bottom       |
-| 7    | Ripple Effect Component        |
-| 8    | Random Color Generator         |
-| 9    | Random Image Generator         |
-| 10   | Calculator                     |
-| 11   | QR Code Generator              |
-| 12   | Cards Filtering                |
-<!-- | 13   | Pagination                     | -->
-<!-- | 14   | Api Intergeration              | -->
-<!-- | 15   | Interface Components           | -->
-<!-- | 16   | Basic Full-flegde App          | -->
-<!-- | 17   | Advanced Js                    | -->
-<!-- | 18   | Mini Games                     | -->
+| Day  | Project                            |
+|------|------------------------------------|
+| 1    | Accordion                          |
+| 2    | API Call                           |
+| 3    | Light/Dark Mode Component          |
+| 4    | Sticky Navbar                      |
+| 5    | Modals and Tabs                    |
+| 6    | Scroll to Top and Bottom           |
+| 7    | Ripple Effect Component            |
+| 8    | Random Color Generator             |
+| 9    | Random Image Generator             |
+| 10   | Calculator                         |
+| 11   | QR Code Generator                  |
+| 12   | Cards Filtering                    |
+| 13   | Pagination                         |
+| 14   | Image Slider                       |
+<!-- | 15   | Api and Data Fetching              | -->
+<!-- | 17   | Advanced JavaScript Features       | -->
+<!-- | 16   | Basic Full-flegde App              | -->
+<!-- | 18   | Mini Games Using Basic Js          | -->
 <!-- | 19   | Melody Part-1                  | -->
 <!-- | 20   | Melody Part-2                  | -->
 
