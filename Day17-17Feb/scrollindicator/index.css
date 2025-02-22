@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 25px;
+}
+
+.top-section{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(109.6deg, rgba(255, 249, 35, 1) 11.5%, rgba(243, 161, 0, 1) 91.1%);
+    padding: 10px 0px;
+}
+
+.progress-container{
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    height: 5px;
+}
+
+.progress-bar{
+    height: 5px;
+    background-color: #101820;
+    width: 0%;
+}
+
+.top-section h1 {
+    text-align: center;
+}
+
+.posts-container{
+    margin: 40px auto 0px auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-item-wrapper{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #FEE715;
+    color: #111;
+    background: radial-gradient( circle 331px at 1.4% 52.9%,  rgba(255,236,2,1) 0%, rgba(255,223,2,1) 33.6%, rgb(245, 191, 65) 61%, rgb(242, 177, 36) 100.7% );
+}

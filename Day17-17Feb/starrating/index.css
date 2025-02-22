@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(111.4deg, rgba(255, 255, 255, 1), rgba(230, 230, 230, 1) 58%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.container h1{
+    font-size: 24px;
+}
+
+.star-rating-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fa-star-o::before {
+    content: '\f006';
+    font-size: 50px;
+}
+
+.selected-rating-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.selected-rating-container p{
+    font-size: 20px;
+}
+
+.fa-star:hover {
+    cursor: pointer;
+}
+
+.fa-star::before {
+    content: '\f005';
+    color: #FEE715;
+    font-size: 50px;
+}
